@@ -36,6 +36,8 @@ One can get the OPENAI_API_KEY value from the Azure Portal. Go to https://portal
       MACOS/LINUX Users: 
          export OPENAI_API_KEY="REPLACE_WITH_YOUR_KEY_VALUE_HERE"
 
+- You need to ensure you have the right model deployed in Azure AI Studio before you can use it. To do that, go to the deployments page of  Azure AI Studio. Create a deployment if one does not already exist. For function calling, we recommend using `gpt-35-turbo` or `gpt-4` models.
+
 - To find your `AZURE_OPENAI_ENDPOINT` go to https://portal.azure.com, find your resource and then under "Resource Management" -> "Keys and Endpoints" look for the "Endpoint" value.
 
 
